@@ -9,6 +9,10 @@ class MovieBrowser extends React.Component {
       movies: []
     };
     this.getMoviesList = this.getMoviesList.bind(this);
+    this.getPopular20Movies = this.getPopular20Movies.bind(this);
+    this.getTrending20Movies = this.getTrending20Movies.bind(this);
+    this.getNewest20Movies = this.getNewest20Movies.bind(this);
+    this.getHighRated20Movies = this.getHighRated20Movies.bind(this);
   }
   componentDidMount() {
     this.getMoviesList();
@@ -25,6 +29,24 @@ class MovieBrowser extends React.Component {
           )
         }
       )
+  }
+
+  getPopular20Movies() {
+    const popular20 = this.state.movies.filter( movie => {
+      
+    });
+  }
+
+  getTrending20Movies() {
+
+  }
+
+  getNewest20Movies() {
+    
+  }
+
+  getHighRated20Movies() {
+    
   }
   render() {
     return(
