@@ -1,0 +1,16 @@
+.movie-card {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #8e8e8e;
+}
+
+.movie-img {
+  width: 250px;
+}
+
+.movie-title {
+  margin: 0;
+  color: #007cff;
+  font-weight: 600;
+}
